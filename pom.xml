@@ -18,4 +18,15 @@
   <build>
     <finalName>java-web-project</finalName>
   </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>Maven-Project</id>
+      <name>Maven-Project</name>
+      <url>http://ec2-3-16-128-73.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/Maven-Project/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
 </project>

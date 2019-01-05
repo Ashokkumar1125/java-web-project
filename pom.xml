@@ -19,8 +19,7 @@
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>maven-snapshot</id>
-      <name>maven-snapshot</name>
-      <url>http://ec2-3-16-128-73.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-snapshot//</url>
+      <url>http://ec2-3-16-128-73.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
